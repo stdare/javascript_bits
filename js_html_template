@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>My Javascript Project</title>
+</head>
+<body>
+ <h2>Javascript & HTML Template</h2>
+ <p id="printme">
+ <!--match the id of the line above with the output line in your JS script-->
+ <script>
+   //your Javascript code goes in here
+   var someVar="output";
+   document.getElementById("printme").innerHTML = 'Print out some '+someVar;
+   //the line above creates output for the browser to print 
+ </script>
+<p>Thanks for watching!</p>
+</body>
+</html>
